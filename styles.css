@@ -123,10 +123,10 @@ header .logo
 }
 .social
 {
-  position: relative;
+  position: absolute;
   z-index: 110;
-  top: -150px;
-  right: -20px;
+  top: 100px;
+  right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,9 +182,9 @@ header .logo
   font-style: italic;
   position: absolute;
   z-index: 7;
-  right: 350px;
+  right: 120px;
   justify-content: center;
-  bottom: 70px;
+  bottom: 150px;
   display: flex;
   font-size: 1em;
   transform: scale(1.5);
