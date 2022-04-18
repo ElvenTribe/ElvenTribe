@@ -13,7 +13,7 @@ header
   left: 0;
   width: 100%;
   padding: 40px 100px;
-  z-index: 1000;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,10 +123,10 @@ header .logo
 }
 .social
 {
-  position: absolute;
-  z-index: 10;
-  bottom: 110px;
-  right: 10px;
+  position: relative;
+  z-index: 110;
+  top: -150px;
+  right: -20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,9 +160,9 @@ header .logo
   width: 450px;
   bottom: -180px;
   display: flex;
-  justify-content: right;
-  right: -150px;
- 
+  justify-content: center;
+  align-items: center;
+  right: -60px;
   transform: scale(0.25);
   -webkit-transform: scale(0.25);
   -moz-transform: scale(0.25);
@@ -170,15 +170,21 @@ header .logo
   -o-transform: scale(0.25);
 }
 
+.extra li
+{
+  list-style: none;
+}
+
+
 
 .asseenon h4
 {
   font-style: italic;
   position: absolute;
   z-index: 7;
-  right: 170px;
+  right: 350px;
   justify-content: center;
-  bottom: 80px;
+  bottom: 70px;
   display: flex;
   font-size: 1em;
   transform: scale(1.5);
